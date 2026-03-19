@@ -1,0 +1,45 @@
+# Build artifacts
+*.o
+*.exe
+voice_cloner
+voice_cloner.exe
+
+# Test artifacts
+test_sine.wav
+output.wav
+
+# Build logs
+build_errors.txt
+compile_log.txt
+build.bat
+*.log
+
+# Data directory (user voice samples)
+data/
+
+# Model weights (binary checkpoints)
+models/
+
+# LaTeX build artifacts
+research/*.aux
+research/*.bbl
+research/*.blg
+research/*.log
+research/*.out
+research/*.pdf
+research/*.synctex.gz
+research/*.fls
+research/*.fdb_latexmk
+research/*.toc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
